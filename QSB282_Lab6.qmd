@@ -3,23 +3,25 @@ title: "Lab 6: Quarto Presentation"
 author: "Jesica Calderon"
 format: revealjs
 editor: visual
+bibliography: references.bib
+link-citations: TRUE 
 ---
 
-## Quarto
+## Some important literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+-   This paper gives a good background on cocci which causes valley fever @mchardy2023
 
-## Bullets
+-   This paper gives an explanation of the treatments for valley fever @zaheri2023
 
-When you click the **Render** button a document will be generated that includes:
+## Cool equations
 
--   Content authored with markdown
--   Output from executable code
+$${\bf M} =
+\begin{pmatrix}
+1 - 2M & M & 0 & 0 & M\\
+M & 1-2M & M & 0 & 0\\
+0 & M & 1-2M & M & 0\\
+0 & 0 & M & 1-2M & M\\
+M & 0 & 0 & M & 1-2M
+\end{pmatrix}$$
 
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+## References
